@@ -2,7 +2,7 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-#dots {
+.dots {
   position: absolute;
   height: 4px;
   z-index: 12;
@@ -39,7 +39,7 @@
   100% {left:100%;}
 }
 </style>
-          <div id='dots'>
+          <div class='dots'>
               <div class="fill"></div>
               <div class="fill"></div>
               <div class="fill"></div>
