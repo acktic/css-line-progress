@@ -3,7 +3,12 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
 #dots {
-  position: fixed;
+  position: absolute;
+  height: 4px;
+  z-index: 12;
+  width: 0;
+  left: 0;
+  top: 0;
 }
 .fill {
   background-color: #000 !important;
